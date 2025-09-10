@@ -13,6 +13,7 @@ const urlSchema = new mongoose.Schema({
     visitHistory: [{timestamps: {type: Number}}],
 },{timestamps: true},
 );
+console.log("RedirectUrl", urlSchema);
 
 const URL = mongoose.model("url", urlSchema);
 
