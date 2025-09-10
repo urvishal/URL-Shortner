@@ -1,0 +1,17 @@
+{
+  "name": "node-js---shorting-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2",
+    "nodemon": "^3.1.10",
+    "shortid": "^2.2.17"
+  }
+}
